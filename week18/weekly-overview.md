@@ -1,51 +1,52 @@
 # Week 18
 
-In Week 18 start a two week Ember.js project. We will focus on learning the basics and benefits of a front-end javascript framework.
+In Week 18 start a two week AngularJS project. We will focus on learning the basics of front- and back-end javascript frameworks.
 
 ## Goals
 - Rapid Learning
-- Learn the benefits of front-end focused frameworks
-- Learn and compare the MVC flow within ember.js
-- Build a single-page application
-- Use Fixtures for rapid development
-- Build a database backed service to query via HTTP
+- Learn the benefits of frameworks
+- Build a Node.js database and a simple Express application
+- Build an AngularJS application
+- Further explore the area of frameworks that you find most interesting
+
 
 ### Monday
 
-| Time             | Topic                                              |
-|:----------------:|:--------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                           |
-| **9:15 - 9:45**  | [What is Ember.js](monday/what-is-ember.js.md)     |
-| **9:45 - 12:00** | [Beginning Ember.js](monday/beginning-ember.js.md) |
-| **1:00 - 5:00**  | [Starting Ember Project](ember-project.md)         |
+| Time             | Topic                                                  |
+|:----------------:|:------------------------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                                               |
+| **9:15 - 9:45**  | [Introduction to Cookbook](monday/cookbook-intro.md)    |
+| **9:45 - 12:00** | [Dean does some stuff](monday/beginning-ember.js.md)   |
+| **1:00 - 5:00**  | [More Dean stuff](ember-project.md)                    |
 
 ### Tuesday
 
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 11:00**  | [Actions, dynamic properties, and associations](tuesday/more-ember.js.md)                         |
-| **11:00 - 2:45**  | [Ember Project](ember-project.md)    |
-| **3:00 - 4:00**  | Talk w/ Kronda    |
-| **4:00 - 5:00**  | [Ember Project](ember-project.md)    |
+| **9:15 - 11:00**  | [Dean da dean dean dean](tuesday/more-ember.js.md)                         |
+| **11:00 - 2:45**  | [Dean stuff](ember-project.md)    |
+| **3:00 - 4:00**  | More Dean    |
+| **4:00 - 5:00**  | [Even More Dean](ember-project.md)    |
 
 ### Wednesday
 
-| Time              | Topic                                            |
-|:-----------------:|:------------------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                         |
-| **9:15 - 10:00**  | Talking Ember                                    |
-| **10:00 - 11:00** | [Ember.js RESTAdapter](wednesday/RESTAdapter.md) |
-| **11:00 - 5:00**  | [Ember Project](ember-project.md)                |
+| Time              | Topic                                                        |
+|:-----------------:|:------------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                     |
+| **9:15 - 10:00**  | [Why use a front-end framework?](wednesday/why-frameworks.md) |
+| **10:00 - 11:00** | [Intro to AngularJS](wednesday/AngularJS-intro.md)            |
+| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) / [Continuing Express project](someLinkToDean'sStuff) |
 
 ### Thursday
 
-| Time             | Topic                                                    |
-|:----------------:|:--------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 9:45**  | Introduction to [Capstone Project](thursday/capstone.md) |
-| **10:00 - 12:00**| Project brainstorming / Digistore                        |
-| **12:00 - 1:00** | Lunch                                                    |
-| **1:00 - 5:00**  | Digistore/Capstone checkins and capstone brainstorming   |
+| Time              | Topic                                                                       |
+|:-----------------:|:---------------------------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                                    |
+| **9:15 - 10:15**  | [Routing and Controllers in AngularJS](thursday/routing-and-controllers.md) |
+| **10:15 - 10:45** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md) |
+| **10:45 - 11:15** | Break                                                                       |
+| **11:15 - 11:45** | Introduction to [Capstone Project](thursday/capstone.md)                    | <!-- is this still happening here? -->
+| **11:45 - 5:00**  | Cookbook Project Time and Capstone Brainstorming                            |
 
 ### Friday (No Class)
