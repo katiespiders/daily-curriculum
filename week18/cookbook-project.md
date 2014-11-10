@@ -37,8 +37,9 @@ frameworks.
 - Recipes include at least a:
     - Name
     - Description
-    - String/text of ingredients
     - String/text of directions
+- Recipes have many Ingredients
+- Ingredients have many Recipes
 - Recipes can be viewed as a list
     - This list can be filtered by a key word on the front-end
 - Recipes can be viewed individually
@@ -48,57 +49,67 @@ frameworks.
 - App uses at least 1 of each of the following: ng-click, ng-if, ng-each, ng-model
 
 ## For Silver, Gold, and Platinum:
-Choose from the following, based on your interests. 5 items from this list is 
-silver. 5 more items (total of 10 additional items) is Gold. 5 more items 
-(total of 15) is Platinum. All of the items is Super-Double-Plus Platinum.
+Choose from the following, based on your interests. You can either pick one track
+and try to work through it, or you can try a number of different things from different
+tracks. Shoot for either breadth (accomplish a lot of different tasks) or depth 
+(do just one task but dive in deeply and do it well).
 
 The lists are written in order of approximate difficulty. DO start at the top
 of the lists that interest you; DO NOT grab items randomly from the middle/bottom.
 
 ### Front-End/Angular Track
-- 
-- Create a custom directive
+- As a user, when I create a recipe, I see a list of ingredients with a search bar. 
+The list is populated by data from the API. I can begin typing the name of an ingredient
+in the search bar and the list will only show me ingredients that include that name.
+(Example: the ingredient list says apple, banana, and apple juice. I type in "app";
+the list now says apple and apple juice).
+
+- Implement validation in your form using some/all of the following:
+    - in the view:
+        - ng-model
+        - custom filters
+        - directives
+
+    - not in the view:
+        - a helper method
+        - a model method
+        - a factory
+
+- Create a custom <accordion> directive that expands the details on a div when 
+you click on it without redirecting you to a new page
+
+### Testing Track
+- Write some unit tests (use Karma?)
+- Write some end-to-end tests (use Protractor?)
 
 ### Back-End Track
 
+#### User interactions
+- As a user, I can search for a recipe by ingredient. The API will only return 
+recipes that have that ingredient.
+- As a user, I can search for a recipe by ingredient not included (example: I can
+search for recipes that do not include pumpkin). The API will only return recipes
+that do not have that ingredient.
+- As a user, I can search for a recipe by both ingredient included and ingredient
+excluded (example: I can search for recipes that do include pumpkin that do not
+include nutmeg). The API will only return recipes that do have pumpkin that do not
+have nutmeg.
+- As a user, I can log in to the application
+- As a user, I can save my favorite recipes and view them when I log back in
 
-<!-- Old stuff past this point -->
+#### Integrations
+- Integrate with Twitter: as a user, I can click on one button to tweet my 
+favorite recipe
+- Integrate with Campfire or email: any time a user sees an error message, 
+post an alert to Campfire or via email
+- Put your API up on Heroku. As a developer, I should be able to set up my 
+local project to pull from your API on Heroku.
 
-## Silver
-
-### Admin
-
-- Checkout
-    - Use a credit card processor to process and charge the given credit card
-    - Record the credit card processor response as a transaction
-
-- As an admin
-    - I can see a map showing a pin for each order
-    - I can see the total number of orders by country
-    - I can refund a partial or full amount of the users order
-    - I can manage/upload images for products from file
-    
-## Gold
-
-- Add to Order
-    - Address
-
-- Cart
-    - The customer can see additional Tax (9.5% if in WA state otherwise 0%)
-    - The customer can enter basic shipping info to see shipping rates.
-    - The customer can select a shipping rate (the total should update)
-
-- As an admin
-    - I can create a shipment with the correct carrier
-    - When an order is marked as shipped
-        - A shipping confirmation is sent to the customer
-    - I can send an email including tracking information from the carrier
-
-## Platinum
-
-- As a customer
-    - I can click a link to "Chat with Customer Service"
-    
-- As an admin, when a customer clicks to chat, if I am on the site:
-    - A chat window opens, with a individual live dialog with each customer.
-    
+#### Diagnostics
+- As an administrator, I can log into a secure admin portal that will show me 
+more things about my site
+- As an administrator, I can see the following diagnostic information at the 
+admin portal (each piece is one point):
+    - Which pages are viewed the most often
+    - Which pages do users spend the most time looking at
+    - What locations viewers are looking at my page from
