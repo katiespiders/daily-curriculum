@@ -2,7 +2,7 @@
 
 Bronze
 ------
-- ~~ Form to create a new to do item.~~
+- ~~Form to create a new to do item.~~
 - ~~ Add new to do items to a list when you click the button.~~
 - Use `<li>` class "done" to keep track of if an item is done or not. (Hint: use toggleClass to toggle done items).
 - Select items using the "done" class and the "check" class.
