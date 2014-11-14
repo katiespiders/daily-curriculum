@@ -4,7 +4,7 @@ Bronze
 ------
 - ~~Form to create a new to do item.~~
 - ~~Add new to do items to a list when you click the button.~~
-- Use `<li>` class "done" to keep track of if an item is done or not. (Hint: use toggleClass to toggle done items).
+- ~~Use `<li>` class "done" to keep track of if an item is done or not. (Hint: use toggleClass to toggle done items).~~
 - Select items using the "done" class and the "check" class.
 - ~~Add new items by creating new HTML for each piece and putting it together using the jQuery append() method.~~
 - Add a button to each task to remove the task from the list
@@ -14,7 +14,7 @@ Silver
 - When adding new items use an animated toggle (fadeIn, slideDown)
 - If you mark all the items in a list "done", ask the user if they want to remove all the items in the list.
 - Use the length of the results to determine if all items are done.
-- Clear the text field after submitting a task
+- ~~Clear the text field after submitting a task~~
 
 Gold
 ------
